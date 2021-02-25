@@ -41,9 +41,15 @@ export default class Home extends React.Component {
 
                 <ListItem bottomDivider>
 
+                  <TouchableOpacity style={{ backgroundColor: 'orange', width: 70, borderWidth: 2, borderColor: 'grey' }}>
+
+                    <Text style = {{fontSize: 'bold' , alignSelf: 'center', fontWeight: 'bold'}}>Exchange</Text>
+
+                  </TouchableOpacity>
+
                   <ListItem.Content>
 
-                    <ListItem.Title style = {{fontWeight: 'bold' , color: 'black'}}>
+                    <ListItem.Title style={{ fontWeight: 'bold', color: 'black' }}>
 
                       {item.Item_Definition}
 

@@ -83,7 +83,7 @@ export default class Exchange extends React.Component {
      <TouchableOpacity style={styles.SubmitButton} onPress={() => {
 
       this.AddItem(this.state.ItemName, this.state.ItemDescription)
-
+       alert("Donation Submitted!")
      }}>
 
       <Text style={{ alignSelf: 'center', fontWeight: 'bold' }}>Submit</Text>

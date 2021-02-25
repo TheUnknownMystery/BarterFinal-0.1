@@ -2,6 +2,8 @@ import { createDrawerNavigator } from 'react-navigation-drawer'
 import { BottomTab } from './AppNavigator'
 import SideDrawer from './SideDrawer'
 import login from '../Screens/Logins'
+import Settings from '../Screens/Settings'
+
 
 export const AppDrawer = createDrawerNavigator(
  {
@@ -12,9 +14,10 @@ export const AppDrawer = createDrawerNavigator(
 
   },
 
-  Login: {
 
-   screen: login
+  Settings: {
+
+  screen: Settings
 
   },
  },

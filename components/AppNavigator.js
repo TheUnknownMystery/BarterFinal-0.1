@@ -35,12 +35,8 @@ export const BottomTab = createBottomTabNavigator(
     />,
     tabBarLabel: 'ExchangePage'
    }
-
-
   },
-
  },
  {
-
-
+  
  })
