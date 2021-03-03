@@ -142,7 +142,7 @@ export default class login extends React.Component {
 
     if (Password !== ConfirmPassword) {
 
-      return Aler.alert("Password and ConfirmPassword are not same please check again")
+      return Alert.alert("Password and ConfirmPassword are not same please check again")
 
     } else {
 
@@ -152,6 +152,7 @@ export default class login extends React.Component {
           db.collection("UserInfo").add({
 
             "FirstName": this.state.FirstName,
+            "Email": this.state.Email,
             "LastName": this.state.LastName,
             "Address": this.state.Address,
             "Contact": this.state.ContactNumber,
