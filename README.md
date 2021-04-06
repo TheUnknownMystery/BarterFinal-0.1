@@ -4,4 +4,4 @@ Barter is a simple to trade app used for small trades. This Application is still
 
 # How to edit
 
-this app is made by using expo-cli 
+this app is made by using expo-cli so you you have expo feel free to edit it and if you find any bugs or some amazing fetures please recommend
